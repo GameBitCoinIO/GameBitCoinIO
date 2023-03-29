@@ -535,7 +535,7 @@ pragma solidity ^0.8.10;
 contract GameBitCoin is ERC20 {
     string public INITIAL_NAME = 'GameBitCoin';
     string public INITIAL_SYMBOL = 'GBIT';
-    uint public INITIAL_SUPPLY = 1000000000*10**uint(decimals());
+    uint public INITIAL_SUPPLY = 5000000000*10**uint(decimals());
 
     constructor() ERC20(INITIAL_NAME, INITIAL_SYMBOL) {
         // 'GameBitCoin','GBIT'
